@@ -1,15 +1,15 @@
 function AddTodo() {
   return (
-    <div class="container  ">
-      <div class="row ak-row">
-        <div class="col-6">
+    <div classNameName="container text-center">
+      <div className="row kg-row">
+        <div className="col-6">
           <input type="text" placeholder="Enter Todo Here" />
         </div>
-        <div class="col-4">
+        <div className="col-4">
           <input type="date" />
         </div>
-        <div class="col-2">
-          <button type="button" class="btn btn-success ak-buttom ">
+        <div className="col-2">
+          <button type="button" className="btn btn-success kg-button">
             Add
           </button>
         </div>
@@ -17,4 +17,5 @@ function AddTodo() {
     </div>
   );
 }
+
 export default AddTodo;
