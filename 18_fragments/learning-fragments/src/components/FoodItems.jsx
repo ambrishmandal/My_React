@@ -1,19 +1,9 @@
 import Item from "./Item";
 
-const FoodItems = () => {
-  let foodItems = [
-    "Dal",
-    "Green Vegetable",
-    "Apple",
-    "Fish",
-    "Mango",
-    "Carrot",
-    "Milk",
-  ];
-
+const FoodItems = ({ items }) => {
   return (
     <ul className="list-group">
-      {foodItems.map((item) => (
+      {items.map((item) => (
         <Item key={item} foodItem={item}></Item>
       ))}
     </ul>
