@@ -1,15 +1,11 @@
-
 input {
-  width: 78%;
+  width: 100%;
 }
 
-
 .kg-button {
-  width: 80%;
-  min-width: 80px;
+  min-width: 200px;
 }
 
 .kg-row {
-  width: 100%;
   margin: 10px 5px;
 }
