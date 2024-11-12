@@ -1,0 +1,26 @@
+ .app-container{
+  display: flex;
+ }
+ .content{
+  width: 100%;
+ }
+
+ .sidebar{
+  max-height: 600px;
+ }
+
+  .create-post{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 80px;
+ }
+
+ .welcome-message{
+  margin-top: 80px ;
+ }
+ .loading-spinner{
+  text-align: center;
+  margin-top: 50px;
+  
+   
+ }
